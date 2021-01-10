@@ -21,6 +21,10 @@ public class JsonMetricsReporterFactory extends BaseReporterFactory {
   @NotNull
   private String token;
 
+private String token1;
+private String token2;
+private String token3;
+
   @Override
   public ScheduledReporter build(MetricRegistry metricRegistry) {
     try {

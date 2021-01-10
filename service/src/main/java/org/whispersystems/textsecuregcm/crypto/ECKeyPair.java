@@ -17,4 +17,26 @@ public class ECKeyPair {
   public ECPrivateKey getPrivateKey() {
     return privateKey;
   }
+  
+  public ECPublicKey getPublicKey()1 {
+    return publicKey;
+  }
+
+  public ECPrivateKey getPrivateKey()1 {
+    return privateKey;
+  }
+  public ECPublicKey getPublicKey()2 {
+    return publicKey;
+  }
+
+  public ECPrivateKey getPrivateKey()2 {
+    return privateKey;
+  }
+  public ECPublicKey getPublicKey()3 {
+    return publicKey;
+  }
+
+  public ECPrivateKey getPrivateKey()3 {
+    return privateKey;
+  }
 }

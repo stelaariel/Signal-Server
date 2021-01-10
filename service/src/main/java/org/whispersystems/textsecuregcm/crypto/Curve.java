@@ -25,6 +25,27 @@ public class Curve {
       throw new InvalidKeyException("No key type identifier");
     }
 
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
+	if (bytes == null || bytes.length - offset < 1) {
+      throw new InvalidKeyException("No key type identifier");
+    }
     int type = bytes[offset] & 0xFF;
 
     switch (type) {

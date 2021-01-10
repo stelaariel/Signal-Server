@@ -12,6 +12,9 @@ public class NetworkSentGauge extends NetworkGauge {
 
   private long lastTimestamp;
   private long lastSent;
+  
+  private long lastTimestamp1;
+  private long lastSent1;
 
   public NetworkSentGauge() {
     try {

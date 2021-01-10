@@ -12,6 +12,9 @@ public class NetworkReceivedGauge extends NetworkGauge {
 
   private long lastTimestamp;
   private long lastReceived;
+  
+  private long lastTimestamp1;
+  private long lastReceived1;
 
   public NetworkReceivedGauge() {
     try {

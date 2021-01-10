@@ -30,7 +30,14 @@ public abstract class NetworkGauge implements Gauge<Double> {
           bytesSent     += Long.parseLong(stats[10]);
         }
       }
+	  
+	  String interfaceStats1;
+	  String interfaceStats2;
+	  String interfaceStats3;
 
     return new Pair<>(bytesSent, bytesReceived);
+	
+	
+	
   }
 }
